@@ -41,7 +41,7 @@ export const CaluclateCard = () => {
     //#endregion
 
     return (
-        <div className='cardContainer' style={{ width: "100%", height: "100%" }}>
+        <div className='cardContainer'>
             <div className='introduction'>
                 <h1>Vücut Kitle Endeksi nedir?</h1>
                 <p>Vücut kitle indeksi (VKİ), vücut kütlesinin (kg), uzunluğunun metre cinsinden karesine bölünmesiyle hesaplanır. Bireyin ideal kilosunu görebilmesi ve hangi ağırlık kategorisinde olduğunu öğrenebilmesi açısından kullanılan bir formüldür.</p>
