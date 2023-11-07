@@ -13,26 +13,38 @@
   background-color: #f3a683;
   margin: 100px;
   border-radius: 0 0 50px 0;
+  padding: 25px;
+}
+
+.introduction p {
+  margin-left: 15px;
+}
+
+img {
+  margin: 30px 0 0 20px;
 }
 
 form {
-  background-color:#f5cd79;
+  background-color: #f5cd79;
   height: 200px;
   width: 500px;
   padding: 20px;
-  position: absolute;
-  top: 300px;
-  right: 120px;
   text-align: center;
-  border-radius :25px 0 25px 0;
+  border-radius: 25px 0 25px 0;
+}
+
+.calculator {
+  position: absolute;
+  top: 250px;
+  right: 120px;
 }
 
 input {
   width: 95%;
   padding: 10px;
   display: block;
-  margin:20px 0 20px 0;
-  border:0px;
+  margin: 20px 0 20px 0;
+  border: 0px;
   border-radius: 50px;
 }
 
@@ -40,4 +52,20 @@ button {
   padding: 10px;
   border-radius: 10px;
   border: 0px;
+}
+
+.result {
+  background-color: #596275;
+  width: 198px;
+  margin-left: auto;
+  padding: 20px;
+  text-align: center;
+  transform: translateY(10%);
+  animation: slide-up 0.3s forwards;
+}
+
+@keyframes slide-up {
+  to {
+    transform: translateY(0);
+  }
 }
