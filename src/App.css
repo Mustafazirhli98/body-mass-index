@@ -9,15 +9,19 @@
 
 .introduction {
   width: 60%;
-  height: 500PX;
-  background-color: #f3a683;
+  height: 500px;
+  background-color: #8FB9A8   ;
   margin: 100px;
   border-radius: 0 0 50px 0;
-  padding: 25px;
+  padding: 14px;
 }
 
 .introduction p {
   margin-left: 15px;
+}
+
+.introduction h1 {
+  margin-left: 8px;
 }
 
 img {
@@ -25,7 +29,7 @@ img {
 }
 
 form {
-  background-color: #f5cd79;
+  background-color: #e96a77;
   height: 200px;
   width: 500px;
   padding: 20px;
